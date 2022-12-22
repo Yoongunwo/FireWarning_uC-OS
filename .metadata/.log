@@ -1,0 +1,1816 @@
+!SESSION 2022-12-17 16:50:18.011 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  C:\Users\82103\OneDrive\바탕 화면\FireWarning\Examples\ST\STM32F429II-SK\OS3\TrueSTUDIO\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86 C:\Users\82103\OneDrive\바탕 화면\FireWarning\Examples\ST\STM32F429II-SK\OS3\TrueSTUDIO\.project
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2022-12-17 16:50:40.029
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2022-12-17 16:50:40.036
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY TrueSTUDIO 1 0 2022-12-17 16:50:40.490
+!MESSAGE Target: STM32, Version: 9.3.0, Build date: 20190212-0734, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.3.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2022-12-17 16:50:40.491
+!MESSAGE Workspace: C:\Users\82103\OneDrive\바탕 화면\FireWarning
+
+!ENTRY org.eclipse.jface 2 0 2022-12-17 16:50:41.250
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-12-17 16:50:41.250
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11da640,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,터미널 명령어,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c92631,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2022-12-17 16:50:44.678
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2022-12-17 16:50:44.708
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-12-17 16:50:45.013
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\82103'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-12-17 16:50:48.842
+!MESSAGE Indexed 'OS3' (61 sources, 51 headers) in 2.48 sec: 8,484 declarations; 34,670 references; 10 unresolved inclusions; 17 syntax errors; 5,648 unresolved names (12%)
+
+!ENTRY org.eclipse.ui 4 4 2022-12-17 16:52:54.750
+!MESSAGE 참조된 부분에 아직 없습니다: org.eclipse.ui.views.TaskList.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-17 16:54:51.232
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@dc74d8): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-17 16:54:51.232
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-17 16:54:51.249
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@14ea99d): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-17 16:54:51.249
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-17 17:01:22.879
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@103667): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-17 17:01:22.879
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-17 17:01:22.900
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1f0d077): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-17 17:01:22.900
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-17 17:52:07.416
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1e305c6): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-17 17:52:07.416
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-17 17:52:07.437
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@826dd3): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-17 17:52:07.437
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-17 18:08:50.803
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5b7c21): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-17 18:08:50.803
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-17 18:08:50.823
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1272dc3): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-17 18:08:50.823
+!MESSAGE Connection is shut down
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2022-12-17 18:55:33.867
+!MESSAGE Unloading product manager
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-17 18:55:33.878
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@91ea27): Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-17 18:55:33.878
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-17 18:55:33.879
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@66f8ff): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-17 18:55:33.879
+!MESSAGE Connection is shut down
+!SESSION 2022-12-17 18:55:49.883 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  C:\Users\82103\OneDrive\바탕 화면\FireWarning\Examples\ST\STM32F429II-SK\OS3\TrueSTUDIO\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86 C:\Users\82103\OneDrive\바탕 화면\FireWarning\Examples\ST\STM32F429II-SK\OS3\TrueSTUDIO\.project
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2022-12-17 18:55:54.304
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2022-12-17 18:55:54.309
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY TrueSTUDIO 1 0 2022-12-17 18:55:54.914
+!MESSAGE Target: STM32, Version: 9.3.0, Build date: 20190212-0734, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.3.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2022-12-17 18:55:54.915
+!MESSAGE Workspace: C:\Users\82103\OneDrive\바탕 화면\FireWarning
+
+!ENTRY org.eclipse.jface 2 0 2022-12-17 18:55:55.698
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-12-17 18:55:55.698
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6c751f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,터미널 명령어,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d2e453,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2022-12-17 18:55:59.395
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2022-12-17 18:55:59.414
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-12-17 18:55:59.516
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\82103'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-17 19:01:27.743
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@12e1766): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-17 19:01:27.743
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-17 19:01:27.763
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1ee05e8): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-17 19:01:27.763
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-17 19:21:10.649
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1d2c0f2): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-17 19:21:10.649
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-17 19:21:10.671
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1e1cf45): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-17 19:21:10.671
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-17 19:25:59.836
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1581cca): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-17 19:25:59.836
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-17 19:25:59.860
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1ac105c): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-17 19:25:59.860
+!MESSAGE Connection is shut down
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2022-12-17 20:59:42.227
+!MESSAGE Unloading product manager
+!SESSION 2022-12-20 12:43:42.635 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  C:\Users\82103\OneDrive\바탕 화면\FireWarning\Examples\ST\STM32F429II-SK\OS3\TrueSTUDIO\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86 C:\Users\82103\OneDrive\바탕 화면\FireWarning\Examples\ST\STM32F429II-SK\OS3\TrueSTUDIO\.project
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2022-12-20 12:43:48.569
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2022-12-20 12:43:48.583
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY TrueSTUDIO 1 0 2022-12-20 12:43:51.174
+!MESSAGE Target: STM32, Version: 9.3.0, Build date: 20190212-0734, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.3.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2022-12-20 12:43:51.176
+!MESSAGE Workspace: C:\Users\82103\OneDrive\바탕 화면\FireWarning
+
+!ENTRY org.eclipse.jface 2 0 2022-12-20 12:43:54.741
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-12-20 12:43:54.741
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@13b1597,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,터미널 명령어,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@15cd210,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2022-12-20 12:44:07.247
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-12-20 12:44:07.354
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\82103'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2022-12-20 12:44:07.419
+!MESSAGE Code Review is up.
+
+!ENTRY com.atollic.hardwaredebug.launch 2 0 2022-12-20 12:44:51.424
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 12:47:13.994
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@3f95d3): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 12:47:13.995
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 12:47:14.023
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@b00053): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 12:47:14.023
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 12:49:52.478
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1f3c4e0): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 12:49:52.478
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 12:49:52.504
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@19daf64): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 12:49:52.504
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 13:00:31.761
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1fcacf1): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 13:00:31.761
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 13:00:31.802
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@91fe5): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 13:00:31.802
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 13:00:42.248
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@f77df1): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 13:00:42.248
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 13:00:42.272
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@386d51): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 13:00:42.272
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 14:57:05.965
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@83ac3d): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 14:57:05.965
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 14:57:05.996
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@139b301): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 14:57:05.996
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 14:57:18.554
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@88b9b6): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 14:57:18.554
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 14:59:20.901
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@842084): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 14:59:20.901
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 14:59:20.927
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@e83cea): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 14:59:20.927
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:02:17.761
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1183a8d): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:02:17.761
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:02:17.809
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@45e8ff): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:02:17.809
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:03:03.782
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@4a477): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:03:03.782
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:03:03.812
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@3eb10c): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:03:03.812
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:03:28.907
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@cade94): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:03:28.907
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:03:28.934
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1cf2040): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:03:28.934
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:07:06.755
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1d49b15): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:07:06.755
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:07:06.806
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5f58a5): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:07:06.806
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:07:31.592
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@fd7bab): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:07:31.593
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:07:31.619
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@26c328): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:07:31.619
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:09:11.048
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@99eeaa): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:09:11.048
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:09:11.070
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@a7b119): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:09:11.070
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:13:17.571
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@38ae57): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:13:17.571
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:13:17.595
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@158a89): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:13:17.595
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:14:22.884
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1106b1d): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:14:22.884
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:14:22.909
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@e3893e): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:14:22.909
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:21:58.829
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1fa5f96): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:21:58.829
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:21:58.857
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1a02244): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:21:58.857
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:23:23.705
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@f4ede4): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:23:23.705
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:23:23.729
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1b1ca1f): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:23:23.729
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:25:14.851
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1fc5e76): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:25:14.851
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:25:14.871
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@e63ada): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:25:14.871
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:26:03.308
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1201c46): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:26:03.308
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:26:03.333
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@13db3b4): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:26:03.333
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:27:19.919
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@104ab68): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:27:19.919
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:27:19.941
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1ff780b): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:27:19.941
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:49:03.928
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@dac855): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:49:03.928
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:49:03.953
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@123324f): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:49:03.953
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:57:51.802
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@137bc7b): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:57:51.803
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 15:57:51.835
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@bb1ed1): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 15:57:51.835
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 16:13:25.465
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@a8170): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 16:13:25.465
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 16:13:25.492
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@c187e8): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 16:13:25.492
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 16:15:49.010
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@2815d6): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 16:15:49.010
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 16:15:49.039
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@e28197): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 16:15:49.039
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 16:17:04.628
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@704cbc): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 16:17:04.628
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 16:17:04.650
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@4cc552): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 16:17:04.650
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.ui 4 4 2022-12-20 16:30:21.592
+!MESSAGE Error
+!STACK 1
+C Model Exception: Core Exception [code 77] Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:47)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createHeaderFile(NewSourceFileGenerator.java:105)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewHeaderFileCreationWizardPage.createFile(NewHeaderFileCreationWizardPage.java:157)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	... 7 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 966 2022-12-20 16:30:21.602
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createHeaderFile(NewSourceFileGenerator.java:105)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewHeaderFileCreationWizardPage.createFile(NewHeaderFileCreationWizardPage.java:157)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2022-12-20 16:30:21.602
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+
+!ENTRY org.eclipse.cdt.ui 4 4 2022-12-20 16:30:22.821
+!MESSAGE Error
+!STACK 1
+C Model Exception: Core Exception [code 77] Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:47)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createHeaderFile(NewSourceFileGenerator.java:105)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewHeaderFileCreationWizardPage.createFile(NewHeaderFileCreationWizardPage.java:157)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	... 7 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 966 2022-12-20 16:30:22.821
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createHeaderFile(NewSourceFileGenerator.java:105)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewHeaderFileCreationWizardPage.createFile(NewHeaderFileCreationWizardPage.java:157)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2022-12-20 16:30:22.821
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+
+!ENTRY org.eclipse.cdt.ui 4 4 2022-12-20 16:30:33.351
+!MESSAGE Error
+!STACK 1
+C Model Exception: Core Exception [code 77] Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:47)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createHeaderFile(NewSourceFileGenerator.java:105)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewHeaderFileCreationWizardPage.createFile(NewHeaderFileCreationWizardPage.java:157)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	... 7 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 966 2022-12-20 16:30:33.351
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createHeaderFile(NewSourceFileGenerator.java:105)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewHeaderFileCreationWizardPage.createFile(NewHeaderFileCreationWizardPage.java:157)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2022-12-20 16:30:33.352
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+
+!ENTRY org.eclipse.cdt.ui 4 4 2022-12-20 16:30:34.123
+!MESSAGE Error
+!STACK 1
+C Model Exception: Core Exception [code 77] Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:47)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createHeaderFile(NewSourceFileGenerator.java:105)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewHeaderFileCreationWizardPage.createFile(NewHeaderFileCreationWizardPage.java:157)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	... 7 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 966 2022-12-20 16:30:34.123
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createHeaderFile(NewSourceFileGenerator.java:105)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewHeaderFileCreationWizardPage.createFile(NewHeaderFileCreationWizardPage.java:157)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2022-12-20 16:30:34.123
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+
+!ENTRY org.eclipse.cdt.ui 4 4 2022-12-20 16:30:34.725
+!MESSAGE Error
+!STACK 1
+C Model Exception: Core Exception [code 77] Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:47)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createHeaderFile(NewSourceFileGenerator.java:105)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewHeaderFileCreationWizardPage.createFile(NewHeaderFileCreationWizardPage.java:157)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	... 7 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 966 2022-12-20 16:30:34.726
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createHeaderFile(NewSourceFileGenerator.java:105)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewHeaderFileCreationWizardPage.createFile(NewHeaderFileCreationWizardPage.java:157)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2022-12-20 16:30:34.726
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+
+!ENTRY org.eclipse.cdt.ui 4 4 2022-12-20 16:30:35.291
+!MESSAGE Error
+!STACK 1
+C Model Exception: Core Exception [code 77] Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:47)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createHeaderFile(NewSourceFileGenerator.java:105)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewHeaderFileCreationWizardPage.createFile(NewHeaderFileCreationWizardPage.java:157)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	... 7 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 966 2022-12-20 16:30:35.292
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createHeaderFile(NewSourceFileGenerator.java:105)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewHeaderFileCreationWizardPage.createFile(NewHeaderFileCreationWizardPage.java:157)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2022-12-20 16:30:35.292
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+
+!ENTRY org.eclipse.cdt.ui 4 4 2022-12-20 16:30:35.937
+!MESSAGE Error
+!STACK 1
+C Model Exception: Core Exception [code 77] Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:47)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createHeaderFile(NewSourceFileGenerator.java:105)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewHeaderFileCreationWizardPage.createFile(NewHeaderFileCreationWizardPage.java:157)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	... 7 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 966 2022-12-20 16:30:35.938
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createHeaderFile(NewSourceFileGenerator.java:105)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewHeaderFileCreationWizardPage.createFile(NewHeaderFileCreationWizardPage.java:157)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2022-12-20 16:30:35.938
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+
+!ENTRY org.eclipse.cdt.ui 4 4 2022-12-20 16:31:23.395
+!MESSAGE Error
+!STACK 1
+C Model Exception: Core Exception [code 77] Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:47)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createSourceFile(NewSourceFileGenerator.java:110)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileCreationWizardPage.createFile(NewSourceFileCreationWizardPage.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	... 7 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 966 2022-12-20 16:31:23.395
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createSourceFile(NewSourceFileGenerator.java:110)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileCreationWizardPage.createFile(NewSourceFileCreationWizardPage.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2022-12-20 16:31:23.395
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+
+!ENTRY org.eclipse.cdt.ui 4 4 2022-12-20 16:31:27.793
+!MESSAGE Error
+!STACK 1
+C Model Exception: Core Exception [code 77] Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:47)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createSourceFile(NewSourceFileGenerator.java:110)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileCreationWizardPage.createFile(NewSourceFileCreationWizardPage.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	... 7 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 966 2022-12-20 16:31:27.793
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createSourceFile(NewSourceFileGenerator.java:110)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileCreationWizardPage.createFile(NewSourceFileCreationWizardPage.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2022-12-20 16:31:27.793
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+
+!ENTRY org.eclipse.cdt.ui 4 4 2022-12-20 16:35:31.376
+!MESSAGE Error
+!STACK 1
+C Model Exception: Core Exception [code 77] Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:47)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createHeaderFile(NewSourceFileGenerator.java:105)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewHeaderFileCreationWizardPage.createFile(NewHeaderFileCreationWizardPage.java:157)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	... 7 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 966 2022-12-20 16:35:31.376
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createHeaderFile(NewSourceFileGenerator.java:105)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewHeaderFileCreationWizardPage.createFile(NewHeaderFileCreationWizardPage.java:157)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2022-12-20 16:35:31.376
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2022-12-20 16:35:55.186
+!MESSAGE Unloading product manager
+!SESSION 2022-12-20 16:36:09.446 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  C:\Users\82103\OneDrive\바탕 화면\FireWarning\Examples\ST\STM32F429II-SK\OS3\TrueSTUDIO\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86 C:\Users\82103\OneDrive\바탕 화면\FireWarning\Examples\ST\STM32F429II-SK\OS3\TrueSTUDIO\.project
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2022-12-20 16:36:14.926
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2022-12-20 16:36:14.936
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY TrueSTUDIO 1 0 2022-12-20 16:36:16.496
+!MESSAGE Target: STM32, Version: 9.3.0, Build date: 20190212-0734, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.3.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2022-12-20 16:36:16.496
+!MESSAGE Workspace: C:\Users\82103\OneDrive\바탕 화면\FireWarning
+
+!ENTRY org.eclipse.jface 2 0 2022-12-20 16:36:18.926
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-12-20 16:36:18.926
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a132ad,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,터미널 명령어,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@106da3d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2022-12-20 16:36:23.645
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2022-12-20 16:36:23.674
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-12-20 16:36:23.759
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\82103'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 16:50:01.100
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@e7f9c4): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 16:50:01.100
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 16:50:01.124
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1f778f6): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 16:50:01.124
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 16:51:21.642
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1125609): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 16:51:21.642
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 16:51:21.664
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@fc01b6): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 16:51:21.664
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 16:51:53.438
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@f0c2b1): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 16:51:53.438
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 16:51:53.460
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@149ac61): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 16:51:53.460
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:02:35.242
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@11636de): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:02:35.242
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:02:35.264
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1ccecf6): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:02:35.264
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:03:49.808
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@12ed9c3): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:03:49.808
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:03:49.832
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@3b5ede): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:03:49.832
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:04:48.197
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@16c3ba8): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:04:48.197
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:04:48.222
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@10c2803): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:04:48.222
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:05:23.037
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1c6a2a1): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:05:23.037
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:05:23.057
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1856c79): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:05:23.057
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:05:48.175
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@d2dc2c): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:05:48.175
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:05:48.191
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1a0f9b7): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:05:48.191
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:06:25.378
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1998e79): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:06:25.378
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:06:25.399
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@120b5b3): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:06:25.399
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:07:43.181
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@bc223c): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:07:43.181
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:07:43.201
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1c8fb05): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:07:43.202
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:08:24.613
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@12b8b88): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:08:24.613
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:08:24.637
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1f40758): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:08:24.637
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:08:57.583
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1aab645): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:08:57.583
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:08:57.603
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@986321): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:08:57.603
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:11:04.714
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@90e2d9): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:11:04.714
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:11:04.738
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@135f342): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:11:04.739
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:11:58.707
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@4028cd): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:11:58.707
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:11:58.735
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@9c66af): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:11:58.736
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:16:45.086
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@11a361): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:16:45.086
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:16:45.109
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@b281f2): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:16:45.109
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:17:13.404
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@15e25): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:17:13.404
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:17:13.430
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1e8df8e): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:17:13.430
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:18:06.572
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@30eaba): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:18:06.572
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:18:06.593
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@137a17c): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:18:06.593
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:20:37.302
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@17fcf9a): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:20:37.302
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:20:37.326
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@bdffd1): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:20:37.326
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:21:54.517
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@206a30): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:21:54.517
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:21:54.546
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1b7b839): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:21:54.546
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:22:35.486
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@a44242): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:22:35.486
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:22:35.507
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@10eaad4): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:22:35.507
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:22:50.535
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@14061b9): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:22:50.535
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:22:50.551
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@24838e): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:22:50.551
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:23:34.430
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@14cf03e): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:23:34.430
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:23:34.453
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@bed4a0): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:23:34.453
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:23:59.779
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@11043f): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:23:59.779
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:23:59.801
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@18f9b6e): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:23:59.801
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:24:55.443
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@8acec6): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:24:55.443
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:24:55.466
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@83e2e): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:24:55.466
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:25:23.186
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@10592c5): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:25:23.186
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:25:23.204
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@12834ab): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:25:23.204
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:25:54.843
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@13243dd): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:25:54.843
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:25:54.859
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@b6982c): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:25:54.859
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:29:08.028
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@16e549d): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:29:08.028
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:29:08.051
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1caf0bd): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:29:08.051
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:34:53.439
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@191d994): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:34:53.439
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:34:53.467
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@113460): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:34:53.467
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:42:09.808
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1b2d4fb): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:42:09.808
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:42:09.833
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@18680d6): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:42:09.833
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:45:13.966
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@d9dfac): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:45:13.966
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:45:13.990
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@877954): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:45:13.991
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:46:06.959
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1d38233): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:46:06.960
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:46:06.977
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@123aab2): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:46:06.977
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:50:30.825
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1252bc5): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:50:30.825
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:50:30.844
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@15d1d20): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:50:30.844
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:52:23.929
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@14073ab): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:52:23.929
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:52:23.952
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@128640): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:52:23.952
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:56:22.990
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1d14985): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:56:22.990
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 17:56:23.009
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@6af0b): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 17:56:23.009
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.ui 4 4 2022-12-20 19:03:15.388
+!MESSAGE Error
+!STACK 1
+C Model Exception: Core Exception [code 77] Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:47)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createSourceFile(NewSourceFileGenerator.java:110)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileCreationWizardPage.createFile(NewSourceFileCreationWizardPage.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	... 7 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 966 2022-12-20 19:03:15.390
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Only virtual folders and links can be created under a virtual folder.
+	at org.eclipse.core.internal.resources.Resource.checkValidGroupContainer(Resource.java:471)
+	at org.eclipse.core.internal.resources.File.create(File.java:111)
+	at org.eclipse.core.internal.resources.File.create(File.java:181)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createFile(NewSourceFileGenerator.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createNewFile(NewSourceFileGenerator.java:150)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createEmptyFile(NewSourceFileGenerator.java:121)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileGenerator.createSourceFile(NewSourceFileGenerator.java:110)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.NewSourceFileCreationWizardPage.createFile(NewSourceFileCreationWizardPage.java:162)
+	at org.eclipse.cdt.internal.ui.wizards.filewizard.AbstractFileCreationWizard.finishPage(AbstractFileCreationWizard.java:42)
+	at org.eclipse.cdt.internal.ui.wizards.NewElementWizard$2.run(NewElementWizard.java:94)
+	at org.eclipse.cdt.internal.core.model.BatchOperation.executeOperation(BatchOperation.java:36)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:341)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:607)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.core.model.CoreModel.run(CoreModel.java:1220)
+	at org.eclipse.cdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2022-12-20 19:03:15.390
+!MESSAGE Only virtual folders and links can be created under a virtual folder.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:07:55.360
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1784591): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:07:55.360
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:07:55.381
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1020ef9): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:07:55.381
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:13:22.009
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1f64f02): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:13:22.009
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:13:22.028
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@e5da9): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:13:22.028
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:14:32.779
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@fa53ac): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:14:32.779
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:14:32.800
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1b26040): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:14:32.800
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:20:41.997
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@c7e2e5): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:20:41.997
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:20:42.023
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@17ea4f3): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:20:42.023
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:21:57.323
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@91b662): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:21:57.323
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:21:57.342
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@53c813): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:21:57.342
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:26:59.417
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@caae79): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:26:59.417
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:26:59.440
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@6c09e7): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:26:59.440
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:27:45.268
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1ddd53b): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:27:45.268
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:27:45.289
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@8da3c0): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:27:45.289
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:30:55.435
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@caf81): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:30:55.435
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:30:55.460
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@e4b094): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:30:55.460
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:31:38.923
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@b395cf): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:31:38.923
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:31:38.944
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@59e4b8): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:31:38.944
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:32:55.389
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@13ef963): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:32:55.389
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:32:55.409
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@ef3375): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:32:55.409
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:38:01.077
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@9b5f74): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:38:01.077
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:38:01.102
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1fb51c5): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:38:01.102
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:39:05.887
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@63dcd9): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:39:05.888
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:39:05.909
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@50d85f): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:39:05.909
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:46:35.439
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@668f79): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:46:35.439
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:46:35.461
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@78497a): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:46:35.461
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:49:16.498
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@19e276f): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:49:16.498
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:49:16.520
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@3229e4): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:49:16.520
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:54:02.633
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@4e0bd6): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:54:02.633
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 19:54:02.660
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1f38bca): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 19:54:02.660
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:08:53.999
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1938d2d): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:08:53.999
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:08:54.021
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@16108ee): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:08:54.021
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:11:19.252
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@6e6b54): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:11:19.252
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:11:19.274
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@6f6032): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:11:19.274
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:12:58.405
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1be6c0b): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:12:58.405
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:12:58.426
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@58b30d): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:12:58.426
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:13:25.411
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@9f8991): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:13:25.411
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:13:25.431
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1cf2afc): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:13:25.431
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:14:17.949
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@48e9d1): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:14:17.949
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:14:17.973
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@da766a): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:14:17.973
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:15:02.762
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@14dde6a): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:15:02.762
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:15:02.782
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1d88d0d): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:15:02.782
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:17:18.868
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@b19985): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:17:18.868
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:17:18.895
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@16de250): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:17:18.895
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:17:59.661
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1e8e6c6): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:17:59.661
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:17:59.684
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5bb5dd): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:17:59.684
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:18:11.649
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@15f565e): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:18:11.649
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:18:11.668
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@249a0): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:18:11.668
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:21:14.584
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@d94ce9): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:21:14.584
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:21:14.604
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@e01db7): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:21:14.604
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:22:03.613
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@f97f13): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:22:03.613
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:22:03.634
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1473c7): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:22:03.634
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:23:23.046
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@150688c): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:23:23.046
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:23:23.068
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@edfddd): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:23:23.068
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:25:32.683
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@d8b7c7): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:25:32.683
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:25:32.711
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@b08e1f): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:25:32.711
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:25:48.824
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@535b95): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:25:48.824
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:25:48.845
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@10522fc): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:25:48.845
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:28:48.540
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@f3d6e): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:28:48.540
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:28:48.561
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1c7f823): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:28:48.561
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:31:16.320
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1adce5d): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:31:16.320
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:31:16.339
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1c53a84): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:31:16.339
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:32:02.730
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@8b52bb): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:32:02.730
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:32:02.755
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1fbc3d0): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:32:02.755
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:33:21.961
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@75ee1b): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:33:21.961
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:33:21.983
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@3296): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:33:21.984
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:34:23.910
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@f1d29b): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:34:23.910
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:34:23.932
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1bd0eb2): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:34:23.932
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:36:41.769
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@5e20e0): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:36:41.769
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:36:41.791
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@c398f3): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:36:41.791
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:40:45.643
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@157d219): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:40:45.643
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:40:45.665
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@100d2b3): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:40:45.665
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-12-20 20:40:49.245
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.concurrent.RequestMonitor@1956f71): Status ERROR: org.eclipse.cdt.dsf code=10001  null children=[Status ERROR: org.eclipse.cdt.dsf.gdb code=10001 Connection is shut down null]' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10001 2022-12-20 20:40:49.245
+!MESSAGE Connection is shut down
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2022-12-20 20:40:49.256
+!MESSAGE Connection to target failed
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2022-12-20 20:49:21.362
+!MESSAGE Unloading product manager
