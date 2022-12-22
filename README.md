@@ -3,7 +3,7 @@
 ## ABOUT
 - 이 프로젝트는 `nucleo-f429zi`보드를 이용해서 uC/OS 기반으로 만든 것이다. 
 - 불꽃 감지 센서가 불꽃을 감지하고 LED와 능동BUZZER를 통해서 경고를 주는 동작을 한다.
-- 자세한 동작 원리(`Task Message Queue')는 코드는 `app.c`를 보면 알 수 있다.
+- 자세한 동작 원리(`Task Message Queue`)는 코드는 `app.c`를 보면 알 수 있다.
 
 ## VERSION
 - 개발 보드 : Nucleo-f429zi
